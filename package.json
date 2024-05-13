@@ -1,0 +1,19 @@
+{
+  "name": "hospital_api",
+  "version": "1.0.0",
+  "description": "This is Hospital_API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tejas Aher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
